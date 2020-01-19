@@ -1,5 +1,5 @@
 Name:           wayland-protocols
-Version:        1.10
+Version:        1.14
 Release:        1%{?dist}
 Summary:        Wayland protocols that adds functionality not available in the core protocol
 
@@ -44,6 +44,10 @@ wayland-protocols.
 %{_datadir}/%{name}/
 
 %changelog
+* Tue May 08 2018 Kalev Lember <klember@redhat.com> - 1.14-1
+- Update to 1.14
+- Resolves: #1554439
+
 * Tue Sep 19 2017 Olivier Fourdan <ofourdan@redhat.com> - 1.10-1
 - Update to 1.10
 
